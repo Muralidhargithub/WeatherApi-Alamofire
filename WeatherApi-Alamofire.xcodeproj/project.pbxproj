@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F526D8FB337DEC8D94E5CE9 /* Pods_WeatherApi_AlamofireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3510AD2603111945BF61C27 /* Pods_WeatherApi_AlamofireTests.framework */; };
+		9FA18701FBE26D26B676B840 /* Pods_WeatherApi_Alamofire_WeatherApi_AlamofireUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333128C79532F137F31A7058 /* Pods_WeatherApi_Alamofire_WeatherApi_AlamofireUITests.framework */; };
+		EAC07DE423A4A0D8B7D70195 /* Pods_WeatherApi_Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464621DA7CFDA8945FE59DAF /* Pods_WeatherApi_Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37D48F9E2D472B9B00843774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37D48F852D472B9800843774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D48F8C2D472B9800843774;
+			remoteInfo = "WeatherApi-Alamofire";
+		};
+		37D48FA82D472B9B00843774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37D48F852D472B9800843774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D48F8C2D472B9800843774;
+			remoteInfo = "WeatherApi-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		174D926345B2AC61DE286236 /* Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E3606A16A7ED8A4F0F39F34 /* Pods-WeatherApi-Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApi-Alamofire.release.xcconfig"; path = "Target Support Files/Pods-WeatherApi-Alamofire/Pods-WeatherApi-Alamofire.release.xcconfig"; sourceTree = "<group>"; };
+		333128C79532F137F31A7058 /* Pods_WeatherApi_Alamofire_WeatherApi_AlamofireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApi_Alamofire_WeatherApi_AlamofireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D48F8D2D472B9800843774 /* WeatherApi-Alamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherApi-Alamofire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D48F9D2D472B9B00843774 /* WeatherApi-AlamofireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeatherApi-AlamofireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D48FA72D472B9B00843774 /* WeatherApi-AlamofireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeatherApi-AlamofireUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		464621DA7CFDA8945FE59DAF /* Pods_WeatherApi_Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApi_Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915616061814AF08B768FB43 /* Pods-WeatherApi-AlamofireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApi-AlamofireTests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApi-AlamofireTests/Pods-WeatherApi-AlamofireTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0EF5307A5331869CA9387FC /* Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDFC820E873A66DBE2BDCF8E /* Pods-WeatherApi-AlamofireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApi-AlamofireTests.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApi-AlamofireTests/Pods-WeatherApi-AlamofireTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3510AD2603111945BF61C27 /* Pods_WeatherApi_AlamofireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherApi_AlamofireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB38F448C0B7C5FC5D7A152 /* Pods-WeatherApi-Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApi-Alamofire.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApi-Alamofire/Pods-WeatherApi-Alamofire.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		37D48FC22D472D9700843774 /* Exceptions for "WeatherApi-Alamofire" folder in "WeatherApi-Alamofire" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 37D48F8C2D472B9800843774 /* WeatherApi-Alamofire */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		37D48F8F2D472B9800843774 /* WeatherApi-Alamofire */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				37D48FC22D472D9700843774 /* Exceptions for "WeatherApi-Alamofire" folder in "WeatherApi-Alamofire" target */,
+			);
+			path = "WeatherApi-Alamofire";
+			sourceTree = "<group>";
+		};
+		37D48FA02D472B9B00843774 /* WeatherApi-AlamofireTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WeatherApi-AlamofireTests";
+			sourceTree = "<group>";
+		};
+		37D48FAA2D472B9B00843774 /* WeatherApi-AlamofireUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WeatherApi-AlamofireUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37D48F8A2D472B9800843774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC07DE423A4A0D8B7D70195 /* Pods_WeatherApi_Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D48F9A2D472B9B00843774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F526D8FB337DEC8D94E5CE9 /* Pods_WeatherApi_AlamofireTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D48FA42D472B9B00843774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA18701FBE26D26B676B840 /* Pods_WeatherApi_Alamofire_WeatherApi_AlamofireUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37D48F842D472B9800843774 = {
+			isa = PBXGroup;
+			children = (
+				37D48F8F2D472B9800843774 /* WeatherApi-Alamofire */,
+				37D48FA02D472B9B00843774 /* WeatherApi-AlamofireTests */,
+				37D48FAA2D472B9B00843774 /* WeatherApi-AlamofireUITests */,
+				37D48F8E2D472B9800843774 /* Products */,
+				5C3ABF6D38A2FD69832D7C14 /* Pods */,
+				5176BF9719E9F6E5E9333DF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37D48F8E2D472B9800843774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37D48F8D2D472B9800843774 /* WeatherApi-Alamofire.app */,
+				37D48F9D2D472B9B00843774 /* WeatherApi-AlamofireTests.xctest */,
+				37D48FA72D472B9B00843774 /* WeatherApi-AlamofireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5176BF9719E9F6E5E9333DF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464621DA7CFDA8945FE59DAF /* Pods_WeatherApi_Alamofire.framework */,
+				333128C79532F137F31A7058 /* Pods_WeatherApi_Alamofire_WeatherApi_AlamofireUITests.framework */,
+				F3510AD2603111945BF61C27 /* Pods_WeatherApi_AlamofireTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3ABF6D38A2FD69832D7C14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB38F448C0B7C5FC5D7A152 /* Pods-WeatherApi-Alamofire.debug.xcconfig */,
+				2E3606A16A7ED8A4F0F39F34 /* Pods-WeatherApi-Alamofire.release.xcconfig */,
+				174D926345B2AC61DE286236 /* Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.debug.xcconfig */,
+				C0EF5307A5331869CA9387FC /* Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.release.xcconfig */,
+				EDFC820E873A66DBE2BDCF8E /* Pods-WeatherApi-AlamofireTests.debug.xcconfig */,
+				915616061814AF08B768FB43 /* Pods-WeatherApi-AlamofireTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D48F8C2D472B9800843774 /* WeatherApi-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D48FB12D472B9B00843774 /* Build configuration list for PBXNativeTarget "WeatherApi-Alamofire" */;
+			buildPhases = (
+				7CF04A86624AFC8EA9253594 /* [CP] Check Pods Manifest.lock */,
+				37D48F892D472B9800843774 /* Sources */,
+				37D48F8A2D472B9800843774 /* Frameworks */,
+				37D48F8B2D472B9800843774 /* Resources */,
+				AE08C36F457E9A02F1ECD8CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				37D48F8F2D472B9800843774 /* WeatherApi-Alamofire */,
+			);
+			name = "WeatherApi-Alamofire";
+			productName = "WeatherApi-Alamofire";
+			productReference = 37D48F8D2D472B9800843774 /* WeatherApi-Alamofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37D48F9C2D472B9B00843774 /* WeatherApi-AlamofireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D48FB42D472B9B00843774 /* Build configuration list for PBXNativeTarget "WeatherApi-AlamofireTests" */;
+			buildPhases = (
+				AED3E0514C76AA1B266060A8 /* [CP] Check Pods Manifest.lock */,
+				37D48F992D472B9B00843774 /* Sources */,
+				37D48F9A2D472B9B00843774 /* Frameworks */,
+				37D48F9B2D472B9B00843774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37D48F9F2D472B9B00843774 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				37D48FA02D472B9B00843774 /* WeatherApi-AlamofireTests */,
+			);
+			name = "WeatherApi-AlamofireTests";
+			productName = "WeatherApi-AlamofireTests";
+			productReference = 37D48F9D2D472B9B00843774 /* WeatherApi-AlamofireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37D48FA62D472B9B00843774 /* WeatherApi-AlamofireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37D48FB72D472B9B00843774 /* Build configuration list for PBXNativeTarget "WeatherApi-AlamofireUITests" */;
+			buildPhases = (
+				C58887D21BDB5FB6CD5FC126 /* [CP] Check Pods Manifest.lock */,
+				37D48FA32D472B9B00843774 /* Sources */,
+				37D48FA42D472B9B00843774 /* Frameworks */,
+				37D48FA52D472B9B00843774 /* Resources */,
+				FB0B34A35821E4B2DE485F5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37D48FA92D472B9B00843774 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				37D48FAA2D472B9B00843774 /* WeatherApi-AlamofireUITests */,
+			);
+			name = "WeatherApi-AlamofireUITests";
+			productName = "WeatherApi-AlamofireUITests";
+			productReference = 37D48FA72D472B9B00843774 /* WeatherApi-AlamofireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37D48F852D472B9800843774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					37D48F8C2D472B9800843774 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					37D48F9C2D472B9B00843774 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 37D48F8C2D472B9800843774;
+					};
+					37D48FA62D472B9B00843774 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 37D48F8C2D472B9800843774;
+					};
+				};
+			};
+			buildConfigurationList = 37D48F882D472B9800843774 /* Build configuration list for PBXProject "WeatherApi-Alamofire" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37D48F842D472B9800843774;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37D48F8E2D472B9800843774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37D48F8C2D472B9800843774 /* WeatherApi-Alamofire */,
+				37D48F9C2D472B9B00843774 /* WeatherApi-AlamofireTests */,
+				37D48FA62D472B9B00843774 /* WeatherApi-AlamofireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37D48F8B2D472B9800843774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D48F9B2D472B9B00843774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D48FA52D472B9B00843774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CF04A86624AFC8EA9253594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApi-Alamofire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE08C36F457E9A02F1ECD8CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApi-Alamofire/Pods-WeatherApi-Alamofire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApi-Alamofire/Pods-WeatherApi-Alamofire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApi-Alamofire/Pods-WeatherApi-Alamofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED3E0514C76AA1B266060A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApi-AlamofireTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58887D21BDB5FB6CD5FC126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0B34A35821E4B2DE485F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests/Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37D48F892D472B9800843774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D48F992D472B9B00843774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D48FA32D472B9B00843774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37D48F9F2D472B9B00843774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D48F8C2D472B9800843774 /* WeatherApi-Alamofire */;
+			targetProxy = 37D48F9E2D472B9B00843774 /* PBXContainerItemProxy */;
+		};
+		37D48FA92D472B9B00843774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D48F8C2D472B9800843774 /* WeatherApi-Alamofire */;
+			targetProxy = 37D48FA82D472B9B00843774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37D48FAF2D472B9B00843774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37D48FB02D472B9B00843774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37D48FB22D472B9B00843774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB38F448C0B7C5FC5D7A152 /* Pods-WeatherApi-Alamofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherApi-Alamofire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WeatherApi-Alamofire/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apolis.WeatherApi-Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37D48FB32D472B9B00843774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3606A16A7ED8A4F0F39F34 /* Pods-WeatherApi-Alamofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherApi-Alamofire/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WeatherApi-Alamofire/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apolis.WeatherApi-Alamofire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37D48FB52D472B9B00843774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFC820E873A66DBE2BDCF8E /* Pods-WeatherApi-AlamofireTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apolis.WeatherApi-AlamofireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherApi-Alamofire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeatherApi-Alamofire";
+			};
+			name = Debug;
+		};
+		37D48FB62D472B9B00843774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915616061814AF08B768FB43 /* Pods-WeatherApi-AlamofireTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apolis.WeatherApi-AlamofireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherApi-Alamofire.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeatherApi-Alamofire";
+			};
+			name = Release;
+		};
+		37D48FB82D472B9B00843774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 174D926345B2AC61DE286236 /* Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apolis.WeatherApi-AlamofireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WeatherApi-Alamofire";
+			};
+			name = Debug;
+		};
+		37D48FB92D472B9B00843774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0EF5307A5331869CA9387FC /* Pods-WeatherApi-Alamofire-WeatherApi-AlamofireUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apolis.WeatherApi-AlamofireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WeatherApi-Alamofire";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37D48F882D472B9800843774 /* Build configuration list for PBXProject "WeatherApi-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D48FAF2D472B9B00843774 /* Debug */,
+				37D48FB02D472B9B00843774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D48FB12D472B9B00843774 /* Build configuration list for PBXNativeTarget "WeatherApi-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D48FB22D472B9B00843774 /* Debug */,
+				37D48FB32D472B9B00843774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D48FB42D472B9B00843774 /* Build configuration list for PBXNativeTarget "WeatherApi-AlamofireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D48FB52D472B9B00843774 /* Debug */,
+				37D48FB62D472B9B00843774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37D48FB72D472B9B00843774 /* Build configuration list for PBXNativeTarget "WeatherApi-AlamofireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37D48FB82D472B9B00843774 /* Debug */,
+				37D48FB92D472B9B00843774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37D48F852D472B9800843774 /* Project object */;
+}
